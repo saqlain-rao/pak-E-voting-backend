@@ -15,7 +15,7 @@ async function bootstrap() {
   app.use(express.urlencoded({ limit: '50mb', extended: true }));
 
   app.enableCors({
-    origin: '*', // For dev. In prod, restrict to specific domain
+    origin: process.env.CLIENT_URL || '*', // Vercel Domain
     methods: 'GET,HEAD,PUT,PATCH,POST,DELETE,OPTIONS',
     credentials: true,
   });
