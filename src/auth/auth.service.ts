@@ -63,7 +63,7 @@ export class AuthService {
 
     
     let role = user.role;
-    if (user.walletAddress === '0x8f71bcd375fc18c49ad36dffeaacc016c49778b9'.toLowerCase()) {
+    if (user.walletAddress === '0x449F48A20CF8c3E9B738D9c88942a3E6bCe1aA95'.toLowerCase()) {
       role = 'Admin';
     }
     const payload = { sub: user._id, walletAddress: user.walletAddress, role: role };
