@@ -1,4 +1,4 @@
-# VerifiVote - Backend
+# Pak e-Voting - Backend
 
 AI-Driven Decentralized Voting Platform Backend built with NestJS, MongoDB (Mongoose), LangChain with Google Gemini 1.5 Pro, and Ethers.js.
 
